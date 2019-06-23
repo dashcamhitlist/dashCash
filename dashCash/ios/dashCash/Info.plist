@@ -42,6 +42,9 @@
 	<false/>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string></string>
+	<!--See https://github.com/react-native-community/react-native-camera -->
+	<key>NSCameraUsageDescription</key>
+	<string>Your own description of the purpose</string>
 	<key>NSAppTransportSecurity</key>
 	<!--See http://ste.vn/2015/06/10/configuring-app-transport-security-ios-9-osx-10-11/ -->
 	<dict>
