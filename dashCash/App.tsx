@@ -17,10 +17,6 @@ export default class App extends Component<Props> {
   render() {
     return (
       <View style={styles.container}>
-        <Hello
-          name={"Bhavik"}
-          enthusiasmLevel={100}
-        />
         <Camera
           title={'DashCamApp'} 
         />
