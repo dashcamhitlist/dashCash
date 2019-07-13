@@ -9,14 +9,15 @@
 import React from 'react';
 import {Component} from 'react';
 import {StyleSheet, Text, View} from 'react-native';
-import {Hello} from './components';
-import {Camera} from './views';
+import { Camera } from './views';
+
 
 type Props = {};
 export default class App extends Component<Props> {
   render() {
     return (
       <View style={styles.container}>
+        <p>This is the first iteration of the dash cam app</p>
         <Camera
           title={'DashCamApp'} 
         />

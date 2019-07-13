@@ -18,7 +18,7 @@ export class Hello extends React.Component<Props, State> {
     super(props)
 
     if ((props.enthusiasmLevel || 0) <= 0) {
-      throw new Error("You could be a little more enthusiastic. :D")
+      throw new Error("You have to add something as a prop")
     }
 
     this.state = {
