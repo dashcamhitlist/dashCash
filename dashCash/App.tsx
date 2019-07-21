@@ -6,10 +6,10 @@
  * @flow
  */
 
-import React from 'react';
-import {Component} from 'react';
+import React, { Component } from 'react';
 import {StyleSheet, Text, View} from 'react-native';
-import { Camera } from './views';
+
+import { CameraScreen } from './views';
 
 
 type Props = {};
@@ -18,7 +18,7 @@ export default class App extends Component<Props> {
     return (
       <View style={styles.container}>
         <p>This is the first iteration of the dash cam app</p>
-        <Camera
+        <CameraScreen
           title={'DashCamApp'} 
         />
       </View>
