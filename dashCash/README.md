@@ -47,3 +47,8 @@ yarn install
 cd ios && pod install
 
 yarn ios  or yarn andriod
+
+#Recomended Reading
+React Navigation:
+https://reactnavigation.org/docs/en/getting-started.html
+
