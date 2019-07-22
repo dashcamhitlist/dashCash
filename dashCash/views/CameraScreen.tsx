@@ -1,5 +1,5 @@
-import { RNCamera, FaceDetector } from 'react-native-camera';
 import React from 'react';
+import { RNCamera, FaceDetector } from 'react-native-camera';
 import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 
 export interface Props {
