@@ -43,6 +43,9 @@ We'll use feature branches so that master stays in a working state. When you wan
 6. Make a pull request from github from your feature to master
 
 # To Start project
+
+Make sure cocoapods is installed on your computer (brew install cocoapods)
+
 yarn install
 cd ios && pod install
 
